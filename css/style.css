@@ -185,6 +185,7 @@ section {
 ========================================*/
 #about .content-box-lg {
     margin: 0 auto;
+    padding: 20;
 }
 
 /* About-01 */
@@ -265,4 +266,41 @@ section {
     letter-spacing: 2px;
 }
 
+/* Skills */
+.skill {
+    margin-bottom: 20px;
+}
+.skill h4 {
+    line-height: 25px;
+    margin: 10px 0;
+    font-weight: normal;
+}
+.progress {
+    height: 25px;
+    border-radius: 0;
+    background: #f1f1f1;
+    overflow: visible;
+}
+.progress-bar {
+    background:  #E91E63;
+    position: relative;
+}
+.progress-bar span {
+    font-size: 13px;
+    font-weight: 100;
+    background-color:  #4e4e50;
+    padding: 3px;
+    position: absolute;
+    left: 97%;
+    top: -47px;
+}
+.progress-bar span:before {
+    content: "";
+    border-top: 8px solid #4e4e50;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    position: absolute;
+    bottom: -8px;
+    left: 23%;
+}
 
