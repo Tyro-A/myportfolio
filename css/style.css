@@ -150,7 +150,7 @@ section {
 }
 /* Content Right */
 .home-content-right {
-    margin-top: 20px;
+    margin: 0 auto;
 }
 .home-content-right img {
     width: 470px;
