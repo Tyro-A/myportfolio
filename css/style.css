@@ -371,7 +371,13 @@ section {
 
 .timeline-body p {
     padding-top: 10px;
+    padding-bottom: 0;
     text-align: justify;
+
+}
+
+.timeline-heading h4 {
+    font-size: 18px;
 }
 
 
