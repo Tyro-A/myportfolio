@@ -275,6 +275,8 @@ section {
     margin: 10px 0;
     font-weight: normal;
 }
+
+/* Progress Bar*/
 .progress {
     height: 25px;
     border-radius: 0;
@@ -303,4 +305,94 @@ section {
     bottom: -8px;
     left: 23%;
 }
+
+/* Work Experiences */
+
+.about-03 .content-box-md {
+    padding-top: 70px;
+}
+.about-03 .content-box-md h2 {
+    padding-bottom: 20px;
+    text-transform: uppercase;
+
+}
+
+.timeline {
+    list-style: none;
+    position: relative;
+    margin: 10px 30px;
+    width: 65%;
+    height: 100%;
+    margin: 0 auto;
+}
+.timeline li {
+    margin: 10px;
+}
+.timeline:before {
+    content: ' ';
+    background: #E91E63;
+    display: inline-block;
+    position: absolute;
+    left: 2px;
+    width: 5px;
+    height: 100%;
+    z-index: 1;
+    
+}
+
+.timeline li:before {
+    content: ' ';
+    background: #E91E63;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    left: -16px;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+}
+.timeline-panel {
+    background: #4e4e50;
+    margin: 25px 10px;
+    padding: 15px 25px;
+    position: relative;
+}
+
+.timeline-heading::before {
+    content: '';
+    background: #E91E63;
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    z-index: 1;
+    top: 15px;
+    right: -10px;
+}
+
+.timeline-body p {
+    padding-top: 10px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
