@@ -41,13 +41,23 @@ $(function() {
 /* =====================================
           Progress Bars 
 ========================================*/
-$(function(){
-    $(".progress-bar").each(function(){
-    
-        $(this).animate({
-            width: $(this).attr("aria-valuenow") + "%"
-        }, 1000);
+$(function () {
+
+    $("#progress-elements").waypoint(function () {
+
+        //alert("You reach to progress elements area!");
+        $(".progress-bar").each(function () {
+            $(this).animate({
+                width: $(this).attr("aria-valuenow") + "%"
+            }, 2000);
+        });
+
+        this.destroy();
+
+    }, {
+        offset: 'bottom-in-view'
     });
+
 });
 
 
