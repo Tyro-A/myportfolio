@@ -126,7 +126,6 @@ section {
     display: flex;
 }
 #home .btn {
-    margin: 0;
     padding: 15px;
     width: 42%;
     text-transform: uppercase;
@@ -455,8 +454,57 @@ section {
 /* =====================================
             Contact
 ========================================*/
+#contact .content-box {
+    padding-top: 0;
+}
+.contact-heading h2 {
+    margin: 0;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 520;
+}
 
+.form-content form {
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+}
+.form-group input {
+    height: 45px;
+    background: #f1f1f1;
+    width: 100%;
+    margin:10px;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+.form-group textarea {
+    height: 140px;
+    background: #f1f1f1;
+    width: 100%;
+    margin:10px;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+.form-group textarea:focus, .form-group input:focus {
+   background: none;
+    border: 1px solid #E91E63;
+    color: #f1f1f1;
+}
 
+.btn-submit {
+    width: 100% ;
+    margin: 0 0 10px 10px;
+    background:  #E91E63;
+    height: 45px;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+.btn-submit:hover {
+    background: none;
+    border: 1px solid #E91E63;
+    color: #E91E63;
+}
 
 
 
