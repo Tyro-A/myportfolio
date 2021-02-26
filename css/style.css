@@ -381,11 +381,59 @@ section {
     padding-top: 0;
     
 }
-.portfolio-heading h2 {
-    padding: 0 0 80px;
-    text-transform: uppercase;
+.porfolio-headings {
+    padding: 0 0 70px;
+}
+
+.porfolio-headings h2 {
     font-size: 40px;
     font-weight: 520;
+    margin-top: 15px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+.porfolio-headings p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.portfolio-card {
+    position: relative;
+    margin: 20px;
+}
+
+.portfolio-content {
+    position: relative;
+    border-radius: 10px;
+}
+
+.portfolio-card-details {
+    width: 100%;
+    padding: 30px;
+    background-color: #4e4e50;
+}
+.portfolio-card-details h3,
+.portfolio-card-details p
+{
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.details-technologies {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+
+.details-technologies span {
+    font-size: 10px;
+    background:  #E91E63;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 3px;
+    
 }
 
 
