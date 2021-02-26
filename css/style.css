@@ -400,6 +400,14 @@ section {
 .portfolio-card {
     position: relative;
     margin: 20px;
+    cursor: pointer;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+
+.portfolio-card:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .portfolio-content {
@@ -434,6 +442,14 @@ section {
     margin-left: 5px;
     border-radius: 3px;
     
+}
+.details-icon a {
+    color: #f1f1f1;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.details-icon a:hover {
+    color: #E91E63;
 }
 
 
