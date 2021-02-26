@@ -125,7 +125,7 @@ section {
     display: -ms-flexbox;
     display: flex;
 }
-.btn {
+#home .btn {
     margin: 0;
     padding: 15px;
     width: 42%;
@@ -330,7 +330,7 @@ section {
     width: 5px;
     height: 100%;
     z-index: 1;
-    
+
 }
 
 .timeline li:before {
@@ -451,6 +451,11 @@ section {
 .details-icon a:hover {
     color: #E91E63;
 }
+
+/* =====================================
+            Contact
+========================================*/
+
 
 
 
