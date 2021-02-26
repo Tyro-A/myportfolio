@@ -52,19 +52,8 @@ section {
 }
 
 
-/*===================================================
-            Content Boxes
-===================================================*/
-.content-box-lg {
-    padding: 100px 0;
-}
-
-.content-box-md {
-    padding: 100px 0;
-}
-
-.content-box-sm {
-    padding: 90px 0;
+.content-box {
+    padding: 50px 0;
 }
 
 /* =====================================
@@ -101,7 +90,7 @@ section {
     margin: 0 auto;
 }
 
-#home .content-box-sm {
+#home .content-box {
     padding: 40px 0;
 }
 
@@ -183,9 +172,13 @@ section {
 /* =====================================
             About
 ========================================*/
-#about .content-box-lg {
+
+#about .content-box {
     margin: 0 auto;
     padding: 20;
+}
+#about .container {
+    padding: 30px;
 }
 
 /* About-01 */
@@ -258,7 +251,7 @@ section {
 /* About- 02 */
 #progress-elements h3 {
     margin: 0;
-    padding: 0 0 20px 0;
+    padding: 50px 0 30px 0;
     text-align: center;
     text-transform: uppercase;
     font-size: 30px;
@@ -307,14 +300,14 @@ section {
 }
 
 /* Work Experiences */
-
-.about-03 .content-box-md {
-    padding-top: 70px;
+.about-03 .content-box {
+    padding-top: 70px 0 50px;
 }
-.about-03 .content-box-md h2 {
+.work-heading {
     padding-bottom: 20px;
+}
+.work-heading  h2 {
     text-transform: uppercase;
-
 }
 
 .timeline {
@@ -380,10 +373,20 @@ section {
     font-size: 18px;
 }
 
+/* =====================================
+            Porfolio
+========================================*/
 
-
-
-
+#portfolio .content-box {
+    padding-top: 0;
+    
+}
+.portfolio-heading h2 {
+    padding: 0 0 80px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 520;
+}
 
 
 
