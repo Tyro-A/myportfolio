@@ -511,15 +511,16 @@ section {
     text-align: center;
     padding: 10px;
     margin: 0 auto;
-    color: #000;
+    color: #fff;
+    height: 40px;
 }
 #message-status.success {
-    background-color: rgb(211,250,153);
+    background-color: #5cb85c;
     -webkit-animation: status 4s ease forwards;
     animation: status 4s ease forwards;
 }
 #message-status.error {
-    background-color: rgb(250,129,92);
+    background-color: #d9534f;
     -webkit-animation: status 4s ease forwards;
     animation: status 4s ease forwards;
 }
