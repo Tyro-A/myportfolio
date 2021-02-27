@@ -109,7 +109,35 @@ section {
     font-weight: 700;
     text-transform: uppercase;
     color: #E91E63;
+    -webkit-animation: type-home-h1 4s steps(16);
+    animation: type-home-h1 4s steps(16);
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 4px solid #E91E63;
+    width: 16ch;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
 }
+
+@-webkit-keyframes type-home-h1 {
+    0% {
+        width: 0ch;
+    }
+    100% {
+        width: 15ch;
+    }
+}
+
+@keyframes type-home-h1 {
+    0% {
+        width: 0ch;
+    }
+    100% {
+        width: 16ch;
+    }
+}
+
+
 .home-content-left h3 {
     margin: 0;
     padding-top: 10px;
@@ -472,6 +500,9 @@ section {
     margin: 0 auto;
     text-align: center;
     width: 60%;
+    padding: 0 40px 0 25px;
+    border-right: 2px solid #E91E63;
+    border-left: 2px solid #E91E63;
 }
 .form-group input {
     height: 45px;
