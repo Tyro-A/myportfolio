@@ -399,7 +399,6 @@ section {
 .portfolio-card {
     position: relative;
     margin: 20px;
-    cursor: pointer;
     -webkit-transition: 1s;
     transition: 1s;
 }
@@ -489,6 +488,7 @@ section {
     margin:10px;
     -webkit-transition: 1s;
     transition: 1s;
+    resize: vertical;
 }
 .form-group textarea:focus, .form-group input:focus {
    background: none;
@@ -504,6 +504,58 @@ section {
     -webkit-transition: 1s;
     transition: 1s;
 }
+
+#message-status {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    color: #000;
+}
+#message-status.success {
+    background-color: rgb(211,250,153);
+    -webkit-animation: status 4s ease forwards;
+    animation: status 4s ease forwards;
+}
+#message-status.error {
+    background-color: rgb(250,129,92);
+    -webkit-animation: status 4s ease forwards;
+    animation: status 4s ease forwards;
+}
+
+/*Message status animation */
+@-webkit-keyframes status {
+    0% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    90% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    100% {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+@keyframes status {
+    0% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    90% {
+        opacity: 1;
+        pointer-events: all;
+    }
+    100% {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+
+
 .btn-submit:hover {
     background: none;
     border: 1px solid #E91E63;

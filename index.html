@@ -56,8 +56,8 @@
                     <h1>Anjorie Navarez</h1>
                     <h3>A frontend Developer</h3>
                     <div class="row btn-home">
-                        <button type="button" class="btn btn-resume">Get Resume</button>
-                        <button type="button" class="btn btn-hire-me">Hire Me</button>
+                        <a href="https://drive.google.com/file/d/1lWFIXNat1bGhgQIidtysTHrroWC8GujW/view?usp=sharing" class="btn btn-resume">Get Resume</a>
+                        <a href="#contact" class="btn btn-hire-me">Hire Me</a>
                     </div>
                 </div>
                 <div class="col-md-6 home-content-right text-center">
@@ -451,20 +451,25 @@
                   <div class="row">
                       <div class="col-md-12 form-content">
                         
-                       <form>
+                       <form action="https://formspree.io/f/xzbkledk" method="post" id="my-form">
                            <div class="form-group">
-                               <input type="text" class="form-control" id="name" placeholder="Enter Name">
+                               <input type="text" class="form-control" id="name" placeholder="Enter Name" name="name">
                            </div>
                            <div class="form-group">
-                               <input type="email" class="form-control" id="email" placeholder="Enter Email">
+                               <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
                            </div>
                            <div class="form-group">
-                               <textarea class="form-control" rows="5" placeholder="Enter Message"></textarea>
+                               <textarea class="form-control" rows="5" placeholder="Enter Message" id="message" name="message"></textarea>
                            </div>
                            <button type="submit" class="btn btn-submit">Submit</button>
                        </form>
+                       
                     </div>
+                    
                    </div>
+                   
+                <div id="message-status"></div>
+                
                </div>
                 
             </div>
