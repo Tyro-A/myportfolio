@@ -183,7 +183,8 @@ section {
     border: 2px solid #E91E63;
 }
 
-.btn-hire-me {
+.btn-hire-me, 
+.btn-hire-me:focus {
     background: none;
     color: #E91E63;
     border: 2px solid #E91E63;
