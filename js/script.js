@@ -19,25 +19,25 @@ $(window).on('load', function () { //make the whole site is loaded
 
 $(function () {
 
-//    const typeTextSpan = document.querySelector(".typed-text");
-//
-//    const textArray = ["Anjorie", "Navarez"];
-//    const typingDelay = 200;
-//    const erasingDelay = 100;
-//    const newTextDelay 2000;
-//    let textArrayIndex = 0;
-//    let charIndex = 0;
-//
-//    function type() {
-//        if (charIndex < textArray[textArrayIndex].length) {
-//            typeTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
-//            charIndex++;
-//            setTimeout(type, typingDelay)
-//        } else {
-//            //erase
-//        }
-//    }
-    
+    //    const typeTextSpan = document.querySelector(".typed-text");
+    //
+    //    const textArray = ["Anjorie", "Navarez"];
+    //    const typingDelay = 200;
+    //    const erasingDelay = 100;
+    //    const newTextDelay 2000;
+    //    let textArrayIndex = 0;
+    //    let charIndex = 0;
+    //
+    //    function type() {
+    //        if (charIndex < textArray[textArrayIndex].length) {
+    //            typeTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+    //            charIndex++;
+    //            setTimeout(type, typingDelay)
+    //        } else {
+    //            //erase
+    //        }
+    //    }
+
 
 });
 
@@ -98,7 +98,7 @@ window.addEventListener("DOMContentLoaded", function () {
     // get the form elements defined in your form HTML above
 
     var form = document.getElementById("my-form");
-//    var button = document.getElementById("my-form-button");
+    //    var button = document.getElementById("my-form-button");
     var status = document.getElementById("message-status");
 
     // Success and Error functions for after the form is submitted

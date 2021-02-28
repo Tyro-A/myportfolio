@@ -32,20 +32,23 @@ h2,
 h3,
 h4,
 h5,
-h6, 
+h6,
 small {
     font-family: "Poppins", sans-serif;
 }
+
 p {
     font-family: "Poppins", sans-serif;
     font-size: 13px;
     font-weight: 400;
     line-height: 24px;
 }
+
 section {
     background: #1a1a1d;
     overflow: hidden;
 }
+
 .container {
     padding: 90px 20px;
     height: 100%;
@@ -69,6 +72,7 @@ section {
     right: 0;
     z-index: 9999;
 }
+
 #status {
     background-image: url(../img/preloader/preloader.gif);
     background-repeat: no-repeat;
@@ -98,10 +102,12 @@ section {
 .home-content-left {
     margin-top: 160px;
 }
+
 .home-content-left h4 {
     margin: 0;
     font-size: 20px;
 }
+
 .home-content-left h1 {
     margin: 0;
     padding-top: 12px;
@@ -114,27 +120,29 @@ section {
     animation: type 4s steps(17) infinite;
     border-right: 4px solid #E91E63;
     white-space: nowrap;
-   
+
 }
 
 @-webkit-keyframes type {
-  0% {
-    width: 0ch;
-  }
-  100% {
-    width: 16ch;
-  }
-  
+    0% {
+        width: 0ch;
+    }
+
+    100% {
+        width: 16ch;
+    }
+
 }
 
 @keyframes type {
-  0% {
-    width: 0ch;
-  }
-  100% {
-    width: 16ch;
-  }
-  
+    0% {
+        width: 0ch;
+    }
+
+    100% {
+        width: 16ch;
+    }
+
 }
 
 .home-content-left h3 {
@@ -152,6 +160,7 @@ section {
     display: -ms-flexbox;
     display: flex;
 }
+
 #home .btn {
     padding: 15px;
     width: 42%;
@@ -160,14 +169,15 @@ section {
     border-radius: 15px;
     margin-left: 15px;
 }
+
 .btn-resume {
     background: #E91E63;
     color: #fff;
-    -webkit-transition:  all 400ms ease-in-out;
-    transition:  all 400ms ease-in-out;
+    -webkit-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
 }
 
-.btn-resume:hover{
+.btn-resume:hover {
     background: none;
     color: #E91E63;
     border: 2px solid #E91E63;
@@ -177,22 +187,24 @@ section {
     background: none;
     color: #E91E63;
     border: 2px solid #E91E63;
-     -webkit-transition:  all 400ms ease-in-out;
-    transition:  all 400ms ease-in-out;
+    -webkit-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
 }
 
 .btn-hire-me:hover {
     background: #E91E63;
     color: #fff;
 }
+
 /* Content Right */
 .home-content-right {
     padding: 0;
 }
+
 .home-content-right img {
     margin: 0 auto;
     width: 470px;
-    height: 470px;    
+    height: 470px;
 }
 
 /* =====================================
@@ -203,6 +215,7 @@ section {
     margin: 0 auto;
     padding: 20;
 }
+
 #about .container {
     padding: 30px;
 }
@@ -214,6 +227,7 @@ section {
     height: 575px;
     width: 455px;
 }
+
 .image-border img {
     width: 420px;
     height: 540px;
@@ -231,7 +245,7 @@ section {
     text-transform: uppercase;
     font-size: 40px;
     font-weight: 520;
-    
+
 }
 
 .about-info p {
@@ -242,16 +256,19 @@ section {
     line-height: 30px;
     letter-spacing: 0.5px;
 }
+
 .about-certification h3 {
     text-align: center;
     margin: 0;
 }
+
 .about-certification-text p {
     text-align: center;
     font-size: 13px;
     line-height: 19px;
     padding: 5px 8px 15px;
 }
+
 .about-certification-text {
     padding: 10px;
 }
@@ -265,6 +282,7 @@ section {
 .owl-stage-outer {
     height: 130px;
 }
+
 .owl-theme .owl-nav [class*=owl-] {
     color: #1a1a1d;
     width: 20px;
@@ -290,6 +308,7 @@ section {
 .skill {
     margin-bottom: 20px;
 }
+
 .skill h4 {
     line-height: 25px;
     margin: 10px 0;
@@ -303,19 +322,22 @@ section {
     background: #f1f1f1;
     overflow: visible;
 }
+
 .progress-bar {
-    background:  #E91E63;
+    background: #E91E63;
     position: relative;
 }
+
 .progress-bar span {
     font-size: 13px;
     font-weight: 100;
-    background-color:  #4e4e50;
+    background-color: #4e4e50;
     padding: 3px;
     position: absolute;
     left: 97%;
     top: -47px;
 }
+
 .progress-bar span:before {
     content: "";
     border-top: 8px solid #4e4e50;
@@ -330,10 +352,12 @@ section {
 .about-03 .content-box {
     padding-top: 70px 0 50px;
 }
+
 .work-heading {
     padding-bottom: 20px;
 }
-.work-heading  h2 {
+
+.work-heading h2 {
     text-transform: uppercase;
 }
 
@@ -345,9 +369,11 @@ section {
     height: 100%;
     margin: 0 auto;
 }
+
 .timeline li {
     margin: 10px;
 }
+
 .timeline:before {
     content: ' ';
     background: #E91E63;
@@ -371,6 +397,7 @@ section {
     height: 40px;
     z-index: 1;
 }
+
 .timeline-panel {
     background: #4e4e50;
     margin: 25px 10px;
@@ -406,8 +433,9 @@ section {
 
 #portfolio .content-box {
     padding-top: 0;
-    
+
 }
+
 .porfolio-headings {
     padding: 0 0 70px;
 }
@@ -419,6 +447,7 @@ section {
     margin-bottom: 18px;
     text-transform: uppercase;
 }
+
 .porfolio-headings p {
     font-size: 20px;
     font-weight: 500;
@@ -446,9 +475,9 @@ section {
     padding: 30px;
     background-color: #4e4e50;
 }
+
 .portfolio-card-details h3,
-.portfolio-card-details p
-{
+.portfolio-card-details p {
     margin: 0;
     padding-bottom: 10px;
 }
@@ -458,22 +487,24 @@ section {
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 10px;
-    
+
 }
 
 .details-technologies span {
     font-size: 10px;
-    background:  #E91E63;
+    background: #E91E63;
     padding: 5px;
     margin-left: 5px;
     border-radius: 3px;
-    
+
 }
+
 .details-icon a {
     color: #f1f1f1;
     margin-left: 10px;
     text-decoration: none;
 }
+
 .details-icon a:hover {
     color: #E91E63;
 }
@@ -485,9 +516,11 @@ section {
     position: relative;
     overflow: visible;
 }
+
 #contact .content-box {
     padding-top: 0;
 }
+
 .contact-heading h2 {
     margin: 0;
     padding-bottom: 30px;
@@ -504,33 +537,37 @@ section {
     border-right: 2px solid #E91E63;
     border-left: 2px solid #E91E63;
 }
+
 .form-group input {
     height: 45px;
     background: #f1f1f1;
     width: 100%;
-    margin:10px;
+    margin: 10px;
     -webkit-transition: 1s;
     transition: 1s;
 }
+
 .form-group textarea {
     height: 140px;
     background: #f1f1f1;
     width: 100%;
-    margin:10px;
+    margin: 10px;
     -webkit-transition: 1s;
     transition: 1s;
     resize: vertical;
 }
-.form-group textarea:focus, .form-group input:focus {
-   background: none;
+
+.form-group textarea:focus,
+.form-group input:focus {
+    background: none;
     border: 1px solid #E91E63;
     color: #f1f1f1;
 }
 
 .btn-submit {
-    width: 100% ;
+    width: 100%;
     margin: 0 0 10px 10px;
-    background:  #E91E63;
+    background: #E91E63;
     height: 45px;
     -webkit-transition: 1s;
     transition: 1s;
@@ -545,11 +582,13 @@ section {
     color: #fff;
     height: 40px;
 }
+
 #message-status.success {
     background-color: #5cb85c;
     -webkit-animation: status 4s ease forwards;
     animation: status 4s ease forwards;
 }
+
 #message-status.error {
     background-color: #d9534f;
     -webkit-animation: status 4s ease forwards;
@@ -562,24 +601,29 @@ section {
         opacity: 1;
         pointer-events: all;
     }
+
     90% {
         opacity: 1;
         pointer-events: all;
     }
+
     100% {
         opacity: 0;
         pointer-events: none;
     }
 }
+
 @keyframes status {
     0% {
         opacity: 1;
         pointer-events: all;
     }
+
     90% {
         opacity: 1;
         pointer-events: all;
     }
+
     100% {
         opacity: 0;
         pointer-events: none;
@@ -627,6 +671,7 @@ footer {
     font-size: 18px;
     margin: 0 auto;
 }
+
 footer a > li {
     font-size: 5px;
     padding: 10px;
@@ -643,7 +688,7 @@ footer a > li {
 
 footer a > li:hover {
     -webkit-transform: translateY(-15px);
-    transform: translateY(2px;)
+    transform: translateY(2px; )
 }
 
 footer hr {
@@ -652,7 +697,42 @@ footer hr {
 }
 
 
+/* =====================================
+            Navigation
+========================================*/
+.navbar {
+    padding: 35px 0 20px 0;
+}
 
+.site-nav-wrapper {
+    padding: 0 50px;
+}
 
+.navbar-brand {
+    padding: 0 50px 35px;
+}
 
+.navbar-brand img {
+    width: 80px;
+    height: 45px;
+}
 
+.site-nav-wrapper .container {
+    padding: 0 20px;
+    margin: 0;
+}
+
+ul.navbar-nav > li > a {
+    color: #f1f1f1;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 25px;
+}
+
+ul.navbar-nav > li > a:hover,
+ul.navbar-nav > li > a:focus {
+    background: none;
+    color: #E91E63;
+}
