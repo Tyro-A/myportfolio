@@ -13,33 +13,6 @@ $(window).on('load', function () { //make the whole site is loaded
 
 });
 
-/* =====================================
-            Home Animation Text
-========================================*/
-
-$(function () {
-
-    //    const typeTextSpan = document.querySelector(".typed-text");
-    //
-    //    const textArray = ["Anjorie", "Navarez"];
-    //    const typingDelay = 200;
-    //    const erasingDelay = 100;
-    //    const newTextDelay 2000;
-    //    let textArrayIndex = 0;
-    //    let charIndex = 0;
-    //
-    //    function type() {
-    //        if (charIndex < textArray[textArrayIndex].length) {
-    //            typeTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
-    //            charIndex++;
-    //            setTimeout(type, typingDelay)
-    //        } else {
-    //            //erase
-    //        }
-    //    }
-
-
-});
 
 
 /* =====================================
@@ -139,3 +112,10 @@ function ajax(method, url, data, success, error) {
     };
     xhr.send(data);
 }
+
+/* =====================================
+          Contact Form
+========================================*/
+
+
+

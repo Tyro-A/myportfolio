@@ -724,15 +724,27 @@ footer hr {
 
 ul.navbar-nav > li > a {
     color: #f1f1f1;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin: 0 25px;
+    -webkit-transition: all 1s;
+    transition: all 1s;
 }
 
 ul.navbar-nav > li > a:hover,
 ul.navbar-nav > li > a:focus {
     background: none;
     color: #E91E63;
+}
+
+
+/*  On Scroll Navigation */
+.nav-top-on-scroll {
+    background:  #1a1a1d;
+    padding: 10px 0;
+    -webkit-box-shadow: 0 8px 4px -9px #999;
+    box-shadow: 0 8px 4px -9px #999;
+    z-index: 2;
 }
