@@ -109,34 +109,39 @@ section {
     font-weight: 700;
     text-transform: uppercase;
     color: #E91E63;
-    -webkit-animation: type-home-h1 4s steps(16);
-    animation: type-home-h1 4s steps(16);
     overflow: hidden;
-    white-space: nowrap;
-    border-right: 4px solid #E91E63;
-    width: 16ch;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
+   
+}
+.cursor {
+    display: inline-block;
+    width: 3px;
+    background-color: #E91E63;
+    margin-left: 0.1rem;
+    -webkit-animation: blink 1s infinite;
+    animation: blink 1s infinite;
+}
+/*
+.cursor.typing {
+    -webkit-animation: none;
+    animation: none;
+}
+*/
+
+@-webkit-keyframes blink {
+    0% {background-color: #E91E63;}
+    49% {background-color: #E91E63;}
+    50% {background-color: transparent;}
+    99% {background-color: transparent;}
+    100% {background-color: #E91E63;}
 }
 
-@-webkit-keyframes type-home-h1 {
-    0% {
-        width: 0ch;
-    }
-    100% {
-        width: 15ch;
-    }
+@keyframes blink {
+    0% {background-color: #E91E63;}
+    49% {background-color: #E91E63;}
+    50% {background-color: transparent;}
+    99% {background-color: transparent;}
+    100% {background-color: #E91E63;}
 }
-
-@keyframes type-home-h1 {
-    0% {
-        width: 0ch;
-    }
-    100% {
-        width: 16ch;
-    }
-}
-
 
 .home-content-left h3 {
     margin: 0;
