@@ -751,3 +751,9 @@ ul.navbar-nav > li > a:focus {
     box-shadow: 0 8px 4px -9px #999;
     z-index: 2;
 }
+
+
+/* Scroll Spy active state */
+.nav-top-on-scroll ul.navbar-nav > li.active > a {
+    color: #E91E63;
+}
