@@ -114,8 +114,36 @@ function ajax(method, url, data, success, error) {
 }
 
 /* =====================================
-          Contact Form
+          Navigation
 ========================================*/
 
+/* Show and Hide on scroll navigation menu */
+$(function () {
+
+    //Show/Hide nav on page load
+    showHideNav();
+    
+    $(window).scroll(function () {
+        
+        //Show/Hide on window's onscroll
+        showHideNav();
+
+    });
+    
+    function showHideNav() {
+    
+         if ($(window).scrollTop() > 50) {
+
+            //Show on scroll nav menu
+            //alert("you just scrolled");
+            $("nav").addClass("nav-top-on-scroll");
 
 
+        } else {
+
+            //Hide on scroll nav menu
+            $("nav").removeClass("nav-top-on-scroll");
+        }
+        
+    }
+});
