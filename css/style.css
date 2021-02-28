@@ -110,37 +110,31 @@ section {
     text-transform: uppercase;
     color: #E91E63;
     overflow: hidden;
+    -webkit-animation: type 4s steps(17) infinite;
+    animation: type 4s steps(17) infinite;
+    border-right: 4px solid #E91E63;
+    white-space: nowrap;
    
 }
-.cursor {
-    display: inline-block;
-    width: 3px;
-    background-color: #E91E63;
-    margin-left: 0.1rem;
-    -webkit-animation: blink 1s infinite;
-    animation: blink 1s infinite;
-}
-/*
-.cursor.typing {
-    -webkit-animation: none;
-    animation: none;
-}
-*/
 
-@-webkit-keyframes blink {
-    0% {background-color: #E91E63;}
-    49% {background-color: #E91E63;}
-    50% {background-color: transparent;}
-    99% {background-color: transparent;}
-    100% {background-color: #E91E63;}
+@-webkit-keyframes type {
+  0% {
+    width: 0ch;
+  }
+  100% {
+    width: 16ch;
+  }
+  
 }
 
-@keyframes blink {
-    0% {background-color: #E91E63;}
-    49% {background-color: #E91E63;}
-    50% {background-color: transparent;}
-    99% {background-color: transparent;}
-    100% {background-color: #E91E63;}
+@keyframes type {
+  0% {
+    width: 0ch;
+  }
+  100% {
+    width: 16ch;
+  }
+  
 }
 
 .home-content-left h3 {
@@ -234,14 +228,15 @@ section {
 
 .about-info h2 {
     margin: 0;
-    padding-bottom: 25px;
     text-transform: uppercase;
     font-size: 40px;
     font-weight: 520;
+    
 }
 
 .about-info p {
     margin: 0;
+    padding-top: 20px;
     text-align: justify;
     font-size: 18px;
     line-height: 30px;
