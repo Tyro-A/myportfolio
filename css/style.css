@@ -469,6 +469,10 @@ section {
     position: relative;
     border-radius: 10px;
 }
+.portfolio-content img {
+    height: auto;
+    width: 100%;
+}
 
 .portfolio-card-details {
     width: 100%;
@@ -713,7 +717,7 @@ footer hr {
 }
 
 .navbar-header {
-    margin-left: 45px;
+    margin-left: 50px;
     
 }
 .site-nav-wrapper {
