@@ -563,7 +563,8 @@ section {
     color: #f1f1f1;
 }
 
-.btn-submit {
+.btn-submit,
+.btn-submit:focus {
     width: 100%;
     margin: 0 0 10px 10px;
     background: #E91E63;
@@ -580,10 +581,12 @@ section {
     margin: 0 auto;
     color: #fff;
     height: 40px;
+    position: relative;
+    top: -35px;
 }
 
 #message-status.success {
-    background-color: #5cb85c;
+    background-color: #5cb85c;  
     -webkit-animation: status 4s ease forwards;
     animation: status 4s ease forwards;
 }
