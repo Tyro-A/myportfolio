@@ -581,16 +581,13 @@ section {
 }
 
 #message-status {
-    width: 90%;
+    width: 80%;
     max-width: 500px;
     text-align: center;
     padding: 10px;
     margin: 0 auto;
     color: #fff;
     height: 40px;
-    position: absolute;
-    top: 50;
-    left: 28%;
 }
 
 #message-status.success {
@@ -717,7 +714,7 @@ footer hr {
 }
 
 .navbar-header {
-    margin-left: 50px;
+   margin-left: 90px;
     
 }
 .site-nav-wrapper {
@@ -725,7 +722,7 @@ footer hr {
 }
 
 .navbar-brand {
-    padding: 0 50px 35px;
+    padding-top: 0;
 }
 
 .navbar-brand img {
@@ -734,7 +731,7 @@ footer hr {
 }
 
 .site-nav-wrapper .container {
-    padding: 0 10px;
+    padding: 0;
     margin: 0;
 }
 
