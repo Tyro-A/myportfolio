@@ -1,9 +1,7 @@
 /* =====================================
             Media Queries
 ========================================*/
-
 /* Large Devices - Desktops and Laptops*/
-/*
 @media (min-width: 1200px) {
 
     .content-box {
@@ -11,14 +9,20 @@
         margin: 0;
     }
 
-      Navigation Bar 
+    /* Navigation Bar */
     .site-nav-wrapper {
-        padding: 0 20px;
+        padding: 0;
     }
 
-    .navbar-brand img {
-        margin: 0;
+   .navbar-header {
+       margin-left: 20px;
+
+   }
+    
+    /* Home  */
+    #home .content-box {
+        padding-top: 30px;
     }
 
 
-}*/
+}
