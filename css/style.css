@@ -516,6 +516,9 @@ section {
     position: relative;
     overflow: visible;
 }
+#contact .container {
+    position: relative;
+}
 
 #contact .content-box {
     padding-top: 0;
@@ -581,8 +584,9 @@ section {
     margin: 0 auto;
     color: #fff;
     height: 40px;
-    position: relative;
-    top: -35px;
+    position: absolute;
+    top: 50;
+    left: 28%;
 }
 
 #message-status.success {
