@@ -581,7 +581,7 @@ section {
 }
 
 #message-status {
-    width: 80%;
+    width: 50%;
     max-width: 500px;
     text-align: center;
     padding: 10px;
