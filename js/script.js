@@ -30,11 +30,11 @@ $(function () {
         responsive: {
             //breakpoint  from 0 up
             0: {
-                items: 2
+                items: 1
             },
             //breakpoint from 480 up
             480: {
-                items: 3
+                items: 2
             }
         }
     });
