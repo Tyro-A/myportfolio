@@ -35,6 +35,9 @@ $(function () {
             //breakpoint from 480 up
             480: {
                 items: 2
+            },
+            1100: {
+                items: 3
             }
         }
     });
