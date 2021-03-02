@@ -55,15 +55,91 @@
         width: 90%;
         height: auto;
     }
-   
+    
+    
+        /* About */
+    .about-info h2 {
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 500;
+
+    }
+    .about-info > p {
+        font-size: 16px;
+    }
+    
+    .certificate img {
+        height: 110px;
+        padding-right: 10px;
+    }
+    .owl-stage-outer {
+        height: 100px;
+    }
+    
 }
 
 @media(min-width: 1000px) and (max-width: 1099px) {
 
-      .navbar-header {
-        margin-left: 50px;
+      /* Navigation */
+    
+    .site-nav-wrapper{
+        margin-left: 10px;
+    }
+     
+    .navbar-header{
+         margin-left: 10px;
+    } 
+    
+    /* Home */
+    #home .content-box {
+        padding: 30px 0;
+    }
+    
+    .home-content-left h1 {
+        font-size: 45px;
+    }
+    .home-content-left h3 {
+        font-size: 25px;
+    }
+    
+    .home-content-left .btn-home {
+         margin-top: 20px;
+    }
+    
+    .home-content-right {
+        padding-top: 40px;
+        padding-left: 0x
+    }
+    
+    .home-content-right img {
+        margin: 0 auto;
+        padding-top: 100px;
+        width: 75%;
+        height: auto;
+    }
+    
+      /* About */
+    .about-info h2 {
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 500;
 
     }
+    .about-info > p {
+        font-size: 16px;
+    }
+    
+    .certificate img {
+        height: 110px;
+        padding-right: 10px;
+    }
+    .owl-stage-outer {
+        height: 100px;
+    }
+
+    
 }
 
 
