@@ -163,7 +163,7 @@
     }
 
     ul.navbar-nav > li > a {
-        margin: 0;
+        margin: 0 25px;
     }
 
     /* Home */
@@ -335,8 +335,25 @@
         padding: 20px 50px 20px 30px;
     }
 }
-/* Small Devices */
-@media(max-width: 879)
+
+@media(max-width: 879px){
+
+     /* Navigation */
+     
+    .navbar-header{
+         margin-left: 40px;
+    }
+    
+    ul.navbar-nav {
+        margin-left: 10px;
+        padding: 0;
+    }
+    
+    
+    
+    
+
+}
 
 
 

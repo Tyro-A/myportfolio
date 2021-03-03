@@ -94,20 +94,20 @@ section {
 }
 
 #home .content-box {
-    padding: 40px 20px;
+    padding: 20px 20px;
 }
 
-/* Content Left*/
-.home-content-left {
+/* Content Left Reverse*/
+.home-content-right {
     margin-top: 160px;
 }
 
-.home-content-left h4 {
+.home-content-right h4 {
     margin: 0;
     font-size: 20px;
 }
 
-.home-content-left h1 {
+.home-content-right h1 {
     margin: 0;
     padding-top: 12px;
     font-size: 55px;
@@ -144,7 +144,7 @@ section {
 
 }
 
-.home-content-left h3 {
+.home-content-right h3 {
     margin: 0;
     padding-top: 10px;
     font-size: 30px;
@@ -152,7 +152,7 @@ section {
     text-transform: uppercase;
 }
 
-.home-content-left .btn-home {
+.home-content-right .btn-home {
     margin-top: 40px;
     min-width: 100%;
     display: -webkit-box;
@@ -197,11 +197,11 @@ section {
 }
 
 /* Content Right */
-.home-content-right {
+.home-content-left {
     padding: 0;
 }
 
-.home-content-right img {
+.home-content-left img {
     margin: 0 auto;
     padding-top: 100px;
     width: 75%;
@@ -221,12 +221,6 @@ section {
 }
 
 /* About-01 */
-.about-01 .image-border {
-    border: 2px solid #e91e63;
-    padding: 15px;
-    height: auto;
-    width: 100%;
-}
 
 .image-border img {
     width: 100%;
@@ -237,7 +231,7 @@ section {
 
 .about-info {
     padding: 0 20px 20px;
-    margin: 0px;
+    margin: 0;
 }
 
 .about-info h2 {
@@ -350,7 +344,7 @@ section {
 
 /* Work Experiences */
 .about-03 .content-box {
-    padding-top: 70px 0 50px;
+    padding: 70px 0 50px;
 }
 
 .work-heading {
@@ -437,7 +431,7 @@ section {
 }
 
 .porfolio-headings {
-    padding: 0 0 70px;
+    padding: 0 0 50px;
 }
 
 .porfolio-headings h2 {
