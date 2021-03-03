@@ -794,7 +794,8 @@ ul.navbar-nav > li > a:focus {
 }
 
 #mobile-nav {
-    height: 100%;
+    /* By default, mobile nav will be hidden with height 0% */
+    height: 0%;
     width: 100%;
     position: fixed;
     top: 0;
