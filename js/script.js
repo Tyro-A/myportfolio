@@ -125,17 +125,17 @@ $(function () {
 
     //Show/Hide nav on page load
     showHideNav();
-    
+
     $(window).scroll(function () {
-        
+
         //Show/Hide on window's onscroll
         showHideNav();
 
     });
-    
+
     function showHideNav() {
-    
-         if ($(window).scrollTop() > 50) {
+
+        if ($(window).scrollTop() > 50) {
 
             //Show on scroll nav menu
             //alert("you just scrolled");
@@ -147,20 +147,20 @@ $(function () {
             //Hide on scroll nav menu
             $("nav").removeClass("nav-top-on-scroll");
         }
-        
+
     }
 });
 
 //Smooth scrolling
-$(function() {
-    
-    $("a.smooth-scroll").click(function(event){
-        
+$(function () {
+
+    $("a.smooth-scroll").click(function (event) {
+
         event.preventDefault();
-        
+
         //get section id like #about, #portfolio, #contact
         var section_id = $(this).attr("href");
-        
+
         $("html, body").animate({
             scrollTop: $(section_id).offset().top - 64
         }, 1250, "easeInOutExpo");
@@ -171,19 +171,15 @@ $(function() {
 /* =====================================
             Mobile Menu
 ========================================*/
-$(function() {
+$(function () {
 
     //Show mobile navigation
-    $("#mobile-nav-open-btn").click(function(){
-        $("#mobile-nav").css("height","100%");
+    $("#mobile-nav-open-btn").click(function () {
+        $("#mobile-nav").css("height", "100%");
     })
-    
+
     //Hide mobile navigation
-     $("#mobile-nav-close-btn, #mobile-nav").click(function(){
-        $("#mobile-nav").css("height","0%");
+    $("#mobile-nav-close-btn, #mobile-nav").click(function () {
+        $("#mobile-nav").css("height", "0%");
     })
 });
-
-
-
-
