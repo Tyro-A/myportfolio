@@ -638,7 +638,7 @@
 
 }
 
-@media(min-width:768px) and (max-width: 822px) {
+@media (max-width: 822px) {
 
        /* Mobile Navigation  */
     .navbar {
@@ -677,11 +677,14 @@
     /* Home */
     #home {
         position: relative;
+        margin: 0 auto;
     }
 
     #home .content-box {
-        margin-right: 40px;
-        padding-left: 10px;
+       margin: 0 auto;
+       padding: 0;
+       -ms-flex-item-align: center;
+       align-self: center;
     }
 
     /* Content Left Reverse*/
@@ -848,8 +851,62 @@
 }
 
 
+@media(max-width: 800px) {
+
+     /* Home */
+    #home {
+        position: relative;
+        margin: 0 auto;
+    }
+
+    #home .content-box {
+      margin-right: 30px;
+       padding: 0;
+       -ms-flex-item-align: center;
+       align-self: center;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+     /* Home */
+    #home {
+        position: relative;
+        margin: 0 auto;
+    }
+
+    #home .content-box {
+      margin-right: 60px;
+       padding: 0;
+       -ms-flex-item-align: center;
+       align-self: center;
+    }
+
+
+
+}
+
+
 /* Extra Small Devices (Landscape Phone & Portrait Tablets) */
-@media(max-width: 767px) {}
+@media(max-width: 767px) {
+
+    /* Home */
+    #home {
+        position: relative;
+        margin: 0 auto;
+    }
+
+    #home .content-box {
+        margin: 0;
+        padding: 0;
+        -ms-flex-item-align: center;
+        align-self: center;
+    }
+
+
+
+}
 
 /* Extra Small Devices (Landscape Phone & Smaller Devices) */
 @media(max-width: 480px) {}
