@@ -643,18 +643,17 @@
 
 }
 
-
 /*Issues on home - content-box*/
 @media(min-width: 800px) and (max-width: 822px) {
 
-    /* Mobile Navigation  */
+   /* Mobile Navigation  */
     .navbar {
         padding: 20px 0;
     }
 
 
     .navbar-header {
-        margin-left: 35px;
+        margin-left: 15px;
         width: 100%;
 
     }
@@ -665,7 +664,7 @@
 
     .site-nav-wrapper,
     .nav-top-on-scroll {
-        padding: 8px;
+        padding: 8px 0;
     }
 
     /* show mobile nav open btn */
@@ -674,7 +673,8 @@
         position: absolute;
         top: 0;
     }
-
+    
+    
     /* Hide navbar */
     ul.navbar-nav {
         display: none;
@@ -688,7 +688,7 @@
     }
 
     #home .content-box {
-       margin-right: 40px;
+       margin-right: 30px;
        padding: 0;
        -ms-flex-item-align: center;
        align-self: center;
@@ -749,7 +749,15 @@
     }
 
     /* About */
-
+    
+    #about .container {
+        padding: 50px 20px 0 20px;
+    }
+    
+    #about .content-box {
+        margin: 0 auto;
+        padding: 0;
+    }
     .image-border img {
         width: 60%;
         height: auto;
@@ -772,22 +780,21 @@
     }
 
     .certificate img {
-        height: 150px;
+        height: 160px;
         padding-right: 10px;
     }
 
     .owl-stage-outer {
-        height: 150px;
+        height: 160px;
     }
-
-
-    #about .content-box {
-        margin: 0 auto;
-        padding: 0;
+    
+    #progress-elements h3 {
+        padding: 20px 0 30px;
     }
+    
 
     .work-heading {
-        padding: 60px 0 20px;
+        padding: 20px 0;
     }
 
     .about-03 .content-box {
@@ -841,6 +848,10 @@
 
 
     /* Portfolio */
+    #portfolio .container {
+        padding: 40px 20px;
+
+    }
     .porfolio-headings {
         padding: 0;
     }
@@ -852,19 +863,15 @@
 
     /* Contact */
     #contact .container {
-        padding-top: 0;
-        padding-bottom: 0;
+        padding: 40px 20px; 
     }
 
     .form-content form {
-        width: 80%;
-        padding: 20px 50px 20px 30px;
+        width: 70%;
+        padding: 10px 30px 10px 10px;
     }
 
-    
-
 }
-
 
 @media(min-width: 768px) and (max-width: 799px) {
 
