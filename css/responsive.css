@@ -80,8 +80,7 @@
 ===================================================*/
 
 /* Large Devices (Desktops & Laptops) */
-@media(min-width: 1200px) and (max-width: 1299px) {
-
+@media(min-width: 1100px) and (max-width: 1299px) {
 
     /* Navigation */
 
@@ -143,9 +142,6 @@
     .owl-stage-outer {
         height: 100px;
     }
-
-
-
 
 
 }
@@ -226,7 +222,6 @@
 /* Small Devices (Portrait Tablets & Small Desktops) */
 @media(min-width: 880px) and (max-width: 991px) {
 
-
     /* Navigation */
     .site-nav-wrapper {
         padding: 10px;
@@ -252,9 +247,9 @@
     }
 
     #home .content-box {
-      margin: 0 auto;
-      padding-right: 0;
-        
+        margin: 0 auto;
+        padding-right: 0;
+
     }
 
     /* Content Left Reverse*/
@@ -311,10 +306,11 @@
         width: 40%;
     }
 
-      /* About */   
+    /* About */
     #about .container {
         padding: 50px 20px 0 20px;
     }
+
     #about .content-box {
         margin: 0 auto;
         padding: 0;
@@ -353,7 +349,7 @@
     .work-heading {
         padding: 60px 0 20px;
     }
-    
+
     .timeline {
         position: relative;
         margin: 1px;
@@ -361,8 +357,8 @@
         height: 100%;
         margin: 0 auto;
     }
-    
-    
+
+
     .timeline li {
         margin: 10px;
     }
@@ -405,7 +401,7 @@
         padding: 40px 20px;
 
     }
-    
+
     .porfolio-headings {
         padding: 0;
     }
@@ -416,8 +412,8 @@
 
 
     /* Contact */
-     #contact .container {
-        padding: 40px 20px; 
+    #contact .container {
+        padding: 40px 20px;
     }
 
     .form-content form {
@@ -454,8 +450,8 @@
         position: absolute;
         top: 0;
     }
-    
-    
+
+
     /* Hide navbar */
     ul.navbar-nav {
         display: none;
@@ -526,15 +522,16 @@
         width: 40%;
     }
 
-    /* About */   
+    /* About */
     #about .container {
         padding: 50px 20px 0 20px;
     }
+
     #about .content-box {
         margin: 0 auto;
         padding: 0;
     }
-    
+
     .image-border img {
         width: 60%;
         height: auto;
@@ -569,10 +566,10 @@
         padding: 30px 0 20px;
     }
 
-     #progress-elements h3 {
+    #progress-elements h3 {
         padding: 20px 0 30px;
     }
-    
+
 
     .timeline {
         position: relative;
@@ -581,8 +578,8 @@
         height: 100%;
         margin: 0 auto;
     }
-    
-    
+
+
     .timeline li {
         margin: 10px;
     }
@@ -626,7 +623,7 @@
         padding: 40px 20px;
 
     }
-    
+
     .porfolio-headings {
         padding: 0;
     }
@@ -635,25 +632,21 @@
         margin: 50px;
     }
 
-
     /* Contact */
     #contact .container {
-        padding: 40px 20px; 
+        padding: 40px 20px;
     }
 
-        .form-content form {
+    .form-content form {
         width: 70%;
-        padding: 10px 30px 10px 10px;
     }
-
-
 
 }
 
 /*Issues on home - content-box*/
 @media(min-width: 800px) and (max-width: 822px) {
 
-   /* Mobile Navigation  */
+    /* Mobile Navigation  */
     .navbar {
         padding: 20px 0;
     }
@@ -680,8 +673,8 @@
         position: absolute;
         top: 0;
     }
-    
-    
+
+
     /* Hide navbar */
     ul.navbar-nav {
         display: none;
@@ -695,10 +688,10 @@
     }
 
     #home .content-box {
-       margin-right: 30px;
-       padding: 0;
-       -ms-flex-item-align: center;
-       align-self: center;
+        margin-right: 30px;
+        padding: 0;
+        -ms-flex-item-align: center;
+        align-self: center;
     }
 
     /* Content Left Reverse*/
@@ -756,15 +749,16 @@
     }
 
     /* About */
-    
+
     #about .container {
         padding: 50px 20px 0 20px;
     }
-    
+
     #about .content-box {
         margin: 0 auto;
         padding: 0;
     }
+
     .image-border img {
         width: 60%;
         height: auto;
@@ -794,11 +788,11 @@
     .owl-stage-outer {
         height: 160px;
     }
-    
+
     #progress-elements h3 {
         padding: 20px 0 30px;
     }
-    
+
 
     .work-heading {
         padding: 20px 0;
@@ -815,8 +809,8 @@
         height: 100%;
         margin: 0 auto;
     }
-    
-    
+
+
     .timeline li {
         margin: 10px;
     }
@@ -859,6 +853,7 @@
         padding: 40px 20px;
 
     }
+
     .porfolio-headings {
         padding: 0;
     }
@@ -870,19 +865,18 @@
 
     /* Contact */
     #contact .container {
-        padding: 40px 20px; 
+        padding: 40px 20px;
     }
 
     .form-content form {
         width: 70%;
-        padding: 10px 30px 10px 10px;
     }
 
 }
 
 @media(min-width: 768px) and (max-width: 799px) {
 
-   /* Mobile Navigation  */
+    /* Mobile Navigation  */
     .navbar {
         padding: 20px 0;
     }
@@ -909,8 +903,8 @@
         position: absolute;
         top: 0;
     }
-    
-    
+
+
     /* Hide navbar */
     ul.navbar-nav {
         display: none;
@@ -924,10 +918,10 @@
     }
 
     #home .content-box {
-       margin-right: 70px;
-       padding: 0;
-       -ms-flex-item-align: center;
-       align-self: center;
+        margin-right: 70px;
+        padding: 0;
+        -ms-flex-item-align: center;
+        align-self: center;
     }
 
     /* Content Left Reverse*/
@@ -984,19 +978,20 @@
         width: 38%;
     }
 
-           /* About */
+    /* About */
 
-    #about, #about .container {
+    #about,
+    #about .container {
         padding: 20px;
         margin: 0;
     }
-    
+
     #about .content-box {
         padding: 0;
         margin: 0;
     }
-    
-    
+
+
     /* About 01 */
     .image-border img {
         width: 50%;
@@ -1024,24 +1019,24 @@
     .owl-stage-outer {
         height: 150px;
     }
-    
+
 
     /* About 2 */
     #progress-elements {
         padding: 10px 40px 0;
         margin: 0;
     }
-    
+
     #progress-elements h3 {
         font-size: 25px
     }
-    
-      /* About 3 */
+
+    /* About 3 */
     .work-heading h2 {
         font-size: 25px;
         padding: 20px 0 0;
     }
-    
+
     .timeline {
         position: relative;
         width: 90%;
@@ -1072,17 +1067,17 @@
     }
 
 
-        /* Portfolio */
+    /* Portfolio */
     #portfolio .container {
         padding: 30px 40px;
     }
-    
-    
+
+
     .porfolio-headings {
         padding: 0;
     }
-    
-    
+
+
     .porfolio-headings h2 {
         font-size: 30px;
         margin: 5px 0;
@@ -1091,7 +1086,7 @@
     .porfolio-headings p {
         font-size: 18px;
     }
-    
+
     .portfolio-card {
         position: relative;
         margin: 40px;
@@ -1103,9 +1098,10 @@
         padding: 10px;
     }
 
-    .portfolio-card-details h3{
+    .portfolio-card-details h3 {
         font-size: 20px
     }
+
     .portfolio-card-details h3,
     .portfolio-card-details p {
         margin: 0;
@@ -1124,28 +1120,22 @@
     #contact .container {
         padding: 40px;
     }
-    
+
     .contact-heading h2 {
         font-size: 30px;
     }
 
     .form-content form {
         width: 90%;
-        padding: 5px 20px 5px 0;
     }
-    #message-status {
-        width: 75%;
-        max-width: 500px;
-        height: 40px;
-    }
-    
+
 }
 
 /* Extra Small Devices (Landscape Phone & Portrait Tablets) */
-@media(min-width:700px) and (max-width: 767px){
+@media(max-width: 767px) {
 
-    
-   /* Mobile Navigation  */
+
+    /* Mobile Navigation  */
     .navbar {
         padding: 20px 0;
     }
@@ -1173,12 +1163,13 @@
         top: 0;
     }
 
-        /* Home */
+    /* Home */
     #home {
         position: relative;
         margin: 0;
         padding: 0;
     }
+
     #home .container {
         margin: 50px 0;
         padding: 0;
@@ -1221,12 +1212,13 @@
         -ms-flex-pack: center;
         justify-content: center;
     }
-    
-    
+
+
     #home .btn {
         padding: 13px;
         width: 40%;
     }
+
     .btn-home a {
         font-size: 13px;
     }
@@ -1240,20 +1232,20 @@
         width: 55%;
 
     }
-    
 
-       /* About */
+    /* About */
 
-    #about, #about .container {
+    #about,
+    #about .container {
         padding: 20px 20px;
         margin: 0;
     }
-    
+
     #about .content-box {
         padding: 0;
     }
-    
-    
+
+
     /* About 01 */
     .image-border img {
         width: 50%;
@@ -1281,24 +1273,24 @@
     .owl-stage-outer {
         height: 150px;
     }
-    
+
 
     /* About 2 */
     #progress-elements {
         padding: 10px 40px 0;
         margin: 0;
     }
-    
+
     #progress-elements h3 {
         font-size: 25px
     }
-    
-      /* About 3 */
+
+    /* About 3 */
     .work-heading h2 {
         font-size: 25px;
         padding: 20px 0 0;
     }
-    
+
     .timeline {
         position: relative;
         width: 90%;
@@ -1329,17 +1321,17 @@
     }
 
 
-        /* Portfolio */
+    /* Portfolio */
     #portfolio .container {
         padding: 30px 40px;
     }
-    
-    
+
+
     .porfolio-headings {
         padding: 0;
     }
-    
-    
+
+
     .porfolio-headings h2 {
         font-size: 30px;
         margin: 5px 0;
@@ -1348,7 +1340,7 @@
     .porfolio-headings p {
         font-size: 18px;
     }
-    
+
     .portfolio-card {
         position: relative;
         margin: 40px;
@@ -1360,9 +1352,10 @@
         padding: 10px;
     }
 
-    .portfolio-card-details h3{
+    .portfolio-card-details h3 {
         font-size: 20px
     }
+
     .portfolio-card-details h3,
     .portfolio-card-details p {
         margin: 0;
@@ -1381,15 +1374,15 @@
     #contact .container {
         padding: 40px;
     }
-    
+
     .contact-heading h2 {
         font-size: 30px;
     }
 
     .form-content form {
-        width: 90%;
-        padding: 5px 20px 5px 0;
+        width: 85%;
     }
+
     #message-status {
         width: 75%;
         max-width: 500px;
@@ -1398,273 +1391,9 @@
 
 }
 
-@media(max-width:699px){
-
- 
-    /* Mobile Navigation  */
-    .navbar {
-        padding: 20px 0;
-    }
-
-
-    .navbar-header {
-        margin-left: 15px;
-        width: 100%;
-
-    }
-
-    .navbar-header img {
-        margin-top: 5px;
-    }
-
-    .site-nav-wrapper,
-    .nav-top-on-scroll {
-        padding: 8px 0;
-    }
-
-    /* show mobile nav open btn */
-    #mobile-nav-open-btn {
-        display: block;
-        position: absolute;
-        top: 0;
-    }
-
-
-        /* Home */
-    #home {
-        position: relative;
-        margin: 0;
-        padding: 0;
-    }
-    #home .container {
-        margin: 50px 0;
-        padding: 0;
-    }
-
-    #home .content-box {
-        margin: 0 auto;
-        padding: 0;
-    }
-
-    /* Content Left Reverse*/
-    .home-content-right {
-        margin: 0 40px 0 50px;
-        position: relative;
-        right: 15px;
-
-    }
-
-    .home-content-right h4 {
-        text-align: center;
-        font-size: 18px;
-    }
-
-    .home-content-right h1 {
-        font-size: 28px;
-        position: relative;
-        left: 50%;
-        -webkit-transform: translateX(-50%);
-        transform: translateX(-50%);
-    }
-
-    .home-content-right h3 {
-        font-size: 19px;
-        text-align: center;
-    }
-
-    .home-content-right .btn-home {
-        margin-top: 15px;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-    }
-    
-    
-    #home .btn {
-        padding: 13px;
-        width: 40%;
-    }
-    .btn-home a {
-        font-size: 13px;
-    }
-
-
-
-    /* Content Right Reverse*/
-
-    .home-content-left img {
-        padding-top: 100px;
-        padding-bottom: 40px;
-        margin: 0 10px 0 140px;
-        width: 60%;
-
-    }
-
-    
-    /* About */
-
-    #about, #about .container {
-        padding: 20px 0;
-        margin: 0;
-    }
-    
-    #about .content-box {
-        padding: 0;
-    }
-    
-    
-    /* About 01 */
-    .image-border img {
-        width: 55%;
-    }
-
-    .about-info {
-        padding: 0 40px;
-        margin: 0;
-    }
-
-    .about-info h2 {
-        margin: 0;
-        text-transform: uppercase;
-        text-align: center;
-        font-size: 26px;
-        font-weight: 500;
-        margin-top: 30px;
-
-    }
-
-    .certificate img {
-        height: 150px;
-    }
-
-    .owl-stage-outer {
-        height: 150px;
-    }
-    
-
-    /* About 2 */
-    #progress-elements {
-        padding: 30px 40px 0;
-        margin: 0;
-    }
-    
-    #progress-elements h3 {
-        font-size: 25px
-    }
-    
-      /* About 3 */
-    .work-heading h2 {
-        font-size: 25px;
-        padding: 20px 0 0;
-    }
-    
-    .timeline {
-        position: relative;
-        width: 90%;
-        height: 100%;
-    }
-
-    .timeline li:before {
-        content: ' ';
-        position: absolute;
-        left: -6px;
-        width: 20px;
-        height: 20px;
-    }
-
-    .timeline-panel {
-        background: #4e4e50;
-        margin: 15px 0;
-        padding: 10px 15px;
-        width: 100%;
-    }
-
-    .timeline-heading::before {
-        content: '';
-        width: 20px;
-        height: 30px;
-    }
-
-    /* Portfolio */
-    #portfolio .container {
-        padding: 30px 0 0;
-    }
-    
-    
-    .porfolio-headings {
-        padding: 0;
-    }
-    
-    
-    .porfolio-headings h2 {
-        font-size: 30px;
-        margin: 5px 0;
-    }
-
-    .porfolio-headings p {
-        font-size: 18px;
-    }
-    
-    .portfolio-card {
-        position: relative;
-        margin: 40px;
-        -webkit-transition: 1s;
-        transition: 1s;
-    }
-
-    .portfolio-card-details {
-        padding: 10px;
-    }
-
-    .portfolio-card-details h3{
-        font-size: 20px
-    }
-    .portfolio-card-details h3,
-    .portfolio-card-details p {
-        margin: 0;
-        padding-bottom: 10px;
-    }
-
-    .details-technologies {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        margin-bottom: 5px;
-
-    }
-
-    /* Contact */
-    #contact .container {
-        padding-top: 40px;
-        padding-bottom: 0;
-    }
-    
-    .contact-heading h2 {
-        font-size: 30px;
-    }
-
-    .form-content form {
-        width: 90%;
-        padding: 5px 20px 5px 0;
-    }
-    #message-status {
-        width: 75%;
-        max-width: 500px;
-        height: 40px;
-    }
-
- 
-
-}
-
-@media(max-width: 320px) {
+@media(max-width: 425px) {
 
     /* Mobile Navigation  */
-    .navbar {
-        padding: 20px 0;
-    }
-
-
     .navbar-header {
         margin-left: 5px;
         width: 100%;
@@ -1682,7 +1411,7 @@
     .nav-top-on-scroll {
         padding: 5px 0;
     }
-    
+
     #mobile-nav-open-btn {
         font-size: 30px;
         color: #E91E63;
@@ -1691,7 +1420,7 @@
         top: 6px;
     }
 
-    
+
 
     /* Home */
     #home {
@@ -1699,6 +1428,7 @@
         margin: 0;
         padding: 0;
     }
+
     #home .container {
         margin: 50px 0;
         padding: 0;
@@ -1737,41 +1467,39 @@
     .home-content-right .btn-home {
         margin-top: 15px;
     }
-    
-    
+
+
     #home .btn {
-        padding: 10px;
+        padding: 12px;
         width: 50%;
     }
+
     .btn-home a {
-        font-size: 10px;
+        font-size: 12px;
     }
-
-
+    
 
     /* Content Right Reverse*/
 
     .home-content-left img {
-        padding-top: 150px;
-        padding-bottom: 40px;
-        margin: 0 10px 0 60px;
+        padding: 150px 0 40px 0;
+        margin: 0 10px 0 65px;
         width: 70%;
 
     }
 
-
- /* About */
-
-    #about, #about .container {
+    /* About */
+    #about,
+    #about .container {
         padding: 20px 0;
         margin: 0;
     }
-    
+
     #about .content-box {
         padding: 0;
     }
-    
-    
+
+
     /* About 01 */
     .image-border img {
         width: 70%;
@@ -1782,59 +1510,15 @@
         margin: 0;
     }
 
-    .about-info h2 {
-        margin: 0;
-        text-transform: uppercase;
-        text-align: center;
-        font-size: 26px;
-        font-weight: 500;
-        margin-top: 30px;
-
-    }
-
-    .certificate img {
-        height: 150px;
-    }
-
-    .owl-stage-outer {
-        height: 150px;
-    }
-    
-
     /* About 2 */
     #progress-elements {
-        padding: 30px 40px 0;
+        padding: 0 40px 0;
         margin: 0;
-    }
-    
-    #progress-elements h3 {
-        font-size: 25px
     }
 
     .work-heading h2 {
         font-size: 25px;
         padding: 20px 0 0;
-    }
-    
-    .timeline {
-        position: relative;
-        width: 90%;
-        height: 100%;
-    }
-
-    .timeline li:before {
-        content: ' ';
-        position: absolute;
-        left: -6px;
-        width: 20px;
-        height: 20px;
-    }
-
-    .timeline-panel {
-        background: #4e4e50;
-        margin: 15px 0;
-        padding: 10px 15px;
-        width: 100%;
     }
 
     .timeline-heading::before {
@@ -1848,69 +1532,37 @@
     #portfolio .container {
         padding: 30px 0;
     }
-    
-    
+
+
     .porfolio-headings {
         padding: 0;
     }
-    
-    
+
+
     .porfolio-headings h2 {
         font-size: 30px;
         margin: 5px 0;
     }
-
-    .porfolio-headings p {
-        font-size: 18px;
-    }
     
-    .portfolio-card {
-        position: relative;
-        margin: 25px;
-        -webkit-transition: 1s;
-        transition: 1s;
-    }
-
-    .portfolio-card-details {
-        padding: 10px;
-    }
-
-    .portfolio-card-details h3{
-        font-size: 20px
-    }
-    .portfolio-card-details h3,
-    .portfolio-card-details p {
-        margin: 0;
-        padding-bottom: 10px;
-    }
-
-    .details-technologies {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        margin-bottom: 5px;
-
-    }
-
-
     /* Contact */
     #contact .container {
         padding-top: 30px;
         padding-bottom: 0;
     }
-    
-    .contact-heading h2 {
-        font-size: 30px;
-    }
 
     .form-content form {
-        width: 90%;
-        padding: 5px 20px 5px 0;
+        width: 95%;
     }
-    #message-status {
-        width: 75%;
+
+}
+
+@media(max-width:320px) {
+
+     #message-status {
+        width: 85%;
         max-width: 500px;
         height: 40px;
     }
+
 
 }
